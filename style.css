@@ -1,0 +1,210 @@
+header{
+    background-color: rgb(232, 235, 241);
+    padding: 20px 50px;
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: #141440;
+     }
+    
+    .index-main{
+    background-image: url("https://github.com/OpenClassrooms-Student-Center/1603881-creez-votre-site-web-avec-html5-et-css3/blob/P3C4-solution/images/robbie-lens.png?raw=true");
+    height: 75vh;
+    margin-right: 10px;
+    background-size: contain;
+    margin-top: 30px;
+    background-position: center center;
+     }
+     .apropos-main{
+        background-color: #141440;
+          margin-top: 20px;
+      }
+     .index-p{
+        color: white;
+        font-family: Manrope;
+        text-align: center;
+        width: 70%;
+        margin-left: 15%;
+        margin-top: 20px;
+    }
+    .apropos-p{
+        text-align: left;
+        color: white;
+        font-family: Manrope;
+    }
+    em{
+        color: #9fd1e6;
+    }
+    .index-h1{
+        font-size: 2.5em;
+        font-family: Montserrat;
+        color: white;
+    }
+    .index-h1,.index-h2{
+      text-align: center;
+    }
+    .portfolio-h1,.portfolio-h2,.portfolio-h3{
+      color: #141440;
+    }
+    .portfolio-h1{
+        text-align: center;
+        
+    }
+    .portfolio-h2{
+      text-align: center;
+      font-size: 1.4em ;
+    }
+    .portfolio-h3{
+      text-align: center;
+      font-size: 1.5em ;
+    }
+    .apropos-h1,.apropos-h3,.apropos-h2{
+        color: white;
+        text-align: center;
+    }
+    .apropos-h2{
+        text-align: left;
+    }
+    h4{
+        color: white;
+        text-align: center;
+        font-size: 1.2em;
+      }
+        li{
+            color: white;
+        }
+        ul{
+            font-size: 1em;
+            font-family: Manrope;
+            color: #A5B4FC;
+            border: 1px;
+        }
+     form {
+        display: flex;
+        flex-direction: column;
+        max-width: 1000px;
+        margin: auto;
+        color: white;
+      }
+      
+      .form-nom-email {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+      }
+      
+      .form-column {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+      }
+      
+      input,
+      textarea {
+        padding: 15px;
+        border-radius: 3px;
+        border: none;
+      }
+      
+      label {
+        margin-bottom: 10px;
+      }
+      
+      input[type='submit'] {
+        width: 200px;
+        margin: auto;
+        margin-top: 30px;
+      }
+      .form-nom-email {
+        flex-direction: column;
+        gap: 0;
+      }
+      .carre-contenu{
+        border-bottom: 1px solid #A5B4FC;
+        border-right: 1px solid #A5B4FC ;
+        padding: 50px;  
+    }
+      .carre-contenu h2,ul {
+        margin-top: 30px;
+      }
+      .index-section-contact{
+        margin-top: 20px;
+        padding: 50px 20px;
+        background-color: #1f2039;
+        color: white;
+      }
+      .apropos-section-contact{
+        padding: 50px 20px;
+        color: white;
+      }
+      .portfolio-section-contact{
+        padding: 50px 20px;
+      color: white;
+      background-color: #5d5d5d;
+      margin-top: 20px;
+      }
+      .bas{
+        background-color: white;
+       }
+      .grid-paysages {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 300px 300px 300px;
+        gap: 15px;
+      }
+      
+      .grid-portraits {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 300px 300px;
+        gap: 15px;
+      }
+      
+      .grid-paysages img,
+      .grid-portraits img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      
+      .lien-conteneur-photo {
+        position: relative;
+      }
+      
+      .photo-hover {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5em;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.7);
+        display: none;
+      }
+      
+      .lien-conteneur-photo:hover .photo-hover {
+        display: flex;
+      }
+      
+      @media screen and (max-width: 996px) {
+        .grid-paysages {
+          grid-template-columns: 1fr;
+          gap: 15px;
+        }
+      
+        .grid-portraits {
+          grid-template-columns: 1fr;
+          gap: 15px;
+        }
+      }
+      .bas{
+        background-color: white;
+      }
